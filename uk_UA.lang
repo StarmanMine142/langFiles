@@ -1691,6 +1691,9 @@ option.LAVA_NOISE_AMOUNT.comment=Змінює кількість шуму лав
 
 option.LAVA_EDGE_EFFECT=Ефект краю лави
 option.LAVA_EDGE_EFFECT.comment=Додає краї лаві, коли вона торкається інших блоків. §e[*]§r Лише якщо РКО увімкнено
+value.LAVA_EDGE_EFFECT.0=ВИМК.
+value.LAVA_EDGE_EFFECT.1=УВІМК. - світло
+value.LAVA_EDGE_EFFECT.2=УВІМК. - темно
 
 option.NETHER_BRIGHTNESS=Яскравість Незеру
 option.NETHER_BRIGHTNESS.comment=Змінює навколишню яскравість Незеру
@@ -2328,3 +2331,6 @@ option.ACL_ORE_INTENSITY.comment=Зміна інтенсивності світ�
 value.ACL_ORE_INTENSITY.0.0=ВИМК.
 
 option.ENTITIES_ARE_LIGHT=Сутності є світлом
+
+ooption.WATER_CAUSTIC_STRENGTH=Сила каустики води
+option.WATER_CAUSTIC_STRENGTH.comment=Змінює силу ефекту каустики у воді.
