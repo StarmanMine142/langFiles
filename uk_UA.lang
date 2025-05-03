@@ -2143,8 +2143,11 @@ value.GLITTER_RAIN.0=ВИМК.
 value.GLITTER_RAIN.1=Випадково
 value.GLITTER_RAIN.2=Завжди
 
-option.HAND_BLOCKLIGHT_FLICKERING=Мерехтіння ручних джерел світла
+option.HAND_BLOCKLIGHT_FLICKERING=Мерехтіння світла у руці
 value.HAND_BLOCKLIGHT_FLICKERING.0=ВИМК.
+
+option.PIXELATED_HANDHELD_LIGHT=Піксельне світло у руці
+option.PIXELATED_HANDHELD_LIGHT.comment=Піксельна текстура світла у руці
 
 option.SSS_STRENGTH=Підповерхневе розсіювання
 value.SSS_STRENGTH.0=ВИМК.
@@ -2154,6 +2157,9 @@ option.PIXEL_WATER=Процедурна піксельна вода
 option.PIXEL_WATER.comment=Згенерована процедурна піксельна текстура води
 value.PIXEL_WATER.0=ВИМК.
 value.PIXEL_WATER.1=УВІМК.
+
+option.PIXELATED_WATER_REFLECTIONS=Піксельні відблиски води
+option.PIXELATED_WATER_REFLECTIONS.comment=Пікселізує відблиски води
 
 option.COMP_WATER_TWEAKS=Налаштування води Complementary
 option.COMP_WATER_TWEAKS.comment=Налаштування кольору води, зроблено пакетом шейдерів
@@ -2334,3 +2340,6 @@ option.ENTITIES_ARE_LIGHT=Сутності є світлом
 
 option.WATER_CAUSTIC_STRENGTH=Сила каустики води
 option.WATER_CAUSTIC_STRENGTH.comment=Змінює силу ефекту каустики води
+
+option.ROUGHNESS_MULTIPLIER=Множник шорсткості
+option.ROUGHNESS_MULTIPLIER.comment=Змінює шорсткість матеріалів
