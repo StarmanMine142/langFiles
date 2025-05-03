@@ -334,7 +334,7 @@ option.SSAO_I=Інтенсивність краю тіней (ЕПНО)
 option.SSAO_I.comment=Визначає силу екранного простору навколишньої оклюзії (ЕПНО), що додає додаткові тіні навколишнього середовища до країв сцени. §e[*]§r Це не працюватиме, якщо ЕПНО вимкнено в «налаштуваннях продуктивности»
 value.SSAO_I.0=§cВИМК.
 
-option.VANILLAAO_I=Інтенсивність краю тіней (ванілла)
+option.VANILLAAO_I=Інтенсивність краю тіней (усталено)
 option.VANILLAAO_I.comment=Визначає силу для навколишньої оклюзії гри, що додає додаткові тіні навколишнього середовища до країв сцени
 value.VANILLAAO_I.0=§cВИМК.
 
@@ -375,12 +375,12 @@ option.LIGHTSHAFT_NIGHT_I=Множник вночі
 option.LIGHTSHAFT_RAIN_I=Множник під час дощу
 
 option.CLOUD_STYLE_DEFINE=Стиль хмар
-option.CLOUD_STYLE_DEFINE.comment=Встановлює стиль хмар. §e[*]§r «За замовчуванням» означає, що налаштування буде автоматично визначено «візуальний стиль» налаштування шейдерів в головному меню. §e[*]§r «Ванілла» вимагає увімкнення хмар у налаштуваннях відео
+option.CLOUD_STYLE_DEFINE.comment=Встановлює стиль хмар. §e[*]§r «За замовчуванням» означає, що налаштування буде автоматично визначено «візуальний стиль» налаштування шейдерів в головному меню. §e[*]§r «Усталено» вимагає увімкнення хмар у налаштуваннях відео
 value.CLOUD_STYLE_DEFINE.-1=Поточний стиль
 value.CLOUD_STYLE_DEFINE.0=§cВИМК.
 value.CLOUD_STYLE_DEFINE.1=Переосмислений
 value.CLOUD_STYLE_DEFINE.3=Непов'язаний
-value.CLOUD_STYLE_DEFINE.50=Ванілла §e[*]
+value.CLOUD_STYLE_DEFINE.50=Усталено §e[*]
 
 option.CLOUD_SHADOWS=Тіні хмар
 option.CLOUD_SHADOWS.comment=Вмикає тіні, що відкидаються від хмар. §e[*]§r Це працює лише з «переосмисленим» або «непов’язаним» стилями хмари. §e[*]§r Тіні хмар генеруватимуться випадковим чином, якщо для стилю хмар встановлено значення «непов'язаний», через додаткову складність непов'язаних хмар
@@ -641,7 +641,7 @@ option.PIXELATED_BLOCKLIGHT=Піксельне блоків світла
 option.PIXELATED_BLOCKLIGHT.comment=Робить піксельним освітлення, створене блоками джерелами світла
 
 option.PIXELATED_AO=Нерівні краї тіней
-option.PIXELATED_AO.comment=Робить ванілльну навколишню оклюзію гри піксельною
+option.PIXELATED_AO.comment=Робить усталену навколишню оклюзію гри піксельною
 
 option.PIXEL_SCALE=Масштаб піксельности
 option.PIXEL_SCALE.comment=Масштабування виконано за роздільною здатністю текстур
@@ -1630,7 +1630,7 @@ option.BORDER_FOG_DENSITY_END.comment=Визначає щільність меж
 
 option.NETHER_PORTAL_VARIATION=Пресет порталу у Незер
 option.NETHER_PORTAL_VARIATION.comment=Можливість вибору між різними пресетами порталу у Незер. §e[*]§r Підтримка ПР має бути Integrated PBR+
-value.NETHER_PORTAL_VARIATION.0=Ванілльний
+value.NETHER_PORTAL_VARIATION.0=Усталений
 value.NETHER_PORTAL_VARIATION.1=Complementary
 value.NETHER_PORTAL_VARIATION.2=Фіолетова порожнеча
 
@@ -1958,7 +1958,7 @@ option.PURPLE_END_FIRE=Фіолетовий вогонь Енду
 option.PURPLE_END_FIRE.comment=Робить пов’язані з вогнем блоки, сутності та частинки фіолетовими в Енді
 
 option.NO_RAIN_ABOVE_CLOUDS=Без дощу вище хмар
-option.NO_RAIN_ABOVE_CLOUDS.comment=Прибирає дощ над хмарами. Не працює належним чином, якщо висоту ванілльних хмар було змінено з увімкненою ванілльними хмарами
+option.NO_RAIN_ABOVE_CLOUDS.comment=Прибирає дощ над хмарами. Не працює належним чином, якщо висоту усталених хмар було змінено з увімкненими усталеними хмарами
 
 option.DOF_SNEAKING=ГР підкрадання і підзоної труби
 option.DOF_SNEAKING.comment=Активує опцію розмиття світу лише під час підкрадання і використання підзорної труби
@@ -2126,8 +2126,8 @@ option.DISTANCE_MIN_LIGHT.comment=Робить печери темнішими �
 
 option.EMISSIVE_DRAGON_EGG=Сяйне яйце дракона
 
-option.VANILLA_ENTITY_SHADOWS=Ванілльні тіні сутностей
-option.VANILLA_ENTITY_SHADOWS.comment=Вмикає ванільні тіні сутностей, коли тіні в реальному часі вимкнено
+option.VANILLA_ENTITY_SHADOWS=Усталені тіні сутностей
+option.VANILLA_ENTITY_SHADOWS.comment=Вмикає усталені тіні сутностей, коли тіні в реальному часі вимкнено
 
 option.FROGLIGHT_SATURATION=Насиченість жаб. світла
 value.FROGLIGHT_SATURATION.1=За замовч.
@@ -2188,7 +2188,7 @@ option.WEATHER_TEX_G=Текстура погоди - зелений
 option.WEATHER_TEX_B=Текстура погоди - синій
 
 option.EMISSIVE_SOUL_SAND=Сяйні очі піска душ
-option.EMISSIVE_SOUL_SAND.comment=Змушує очі піску душ сяяти, коли ви стоїте на ньому.§e[*]§r Підтримка ПР має бути Integrated PBR+. За замовчуванням лише ванілльна текстура
+option.EMISSIVE_SOUL_SAND.comment=Змушує очі піску душ сяяти, коли ви стоїте на ньому.§e[*]§r Підтримка ПР має бути Integrated PBR+. За замовчуванням лише усталена текстура
 
 option.BEACON_BEAM_EMISSION=Сяяння променя маяка
 option.BEACON_BEAM_EMISSION.comment=Змінює силу сяяння променя маяка
